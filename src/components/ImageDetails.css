@@ -1,0 +1,35 @@
+.image-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	margin-top: 1.5em;
+	row-gap: 2.5em;
+}
+
+.image-details div {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 2.5em;
+	align-items: center;
+}
+
+.image-details__title {
+	font-size: 3.5rem;
+}
+
+.image-details__title span {
+	font-size: 2rem;
+}
+
+.image-details__back-btn {
+	height: 3em;
+	width: auto;
+	padding: 1.2rem;
+}
+
+.image-details__img {
+	width: 500px;
+	aspect-ratio: 1;
+	margin: 0 auto;
+}
