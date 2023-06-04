@@ -23,9 +23,10 @@
 }
 
 .image-details__back-btn {
-	height: 3em;
-	width: auto;
-	padding: 1.2rem;
+	display: grid;
+	height: 3.5rem;
+	place-items: center;
+	width: 5.5rem;
 }
 
 .image-details__img {

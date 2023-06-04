@@ -21,7 +21,9 @@ ul > li {
 .artwork {
 	background-color: transparent;
 	border: none;
-	font-size: 18px;
 	outline: none;
 	text-decoration: underline;
+}
+.artwork > button {
+	font-size: 1.125rem;
 }

@@ -19,13 +19,11 @@ export function App() {
 		// our UI, we need to make real requests!
 		// @see: ./src/api.js
 		searchArtworks(query).then((json) => {
-			console.log(json);
 			setData(json.data);
 		});
 	}
 
 	function handleSelectedArtwork(item) {
-		// console.log(item);
 		setArtWorkSelected(item);
 	}
 

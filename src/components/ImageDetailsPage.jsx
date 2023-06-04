@@ -2,7 +2,6 @@ import './ImageDetails.css';
 
 export function ImageDetails({ selectedArtwork, setArtWorkSelected }) {
 	const { artist_title, image_id, title, thumbnail } = selectedArtwork;
-	console.log(selectedArtwork);
 
 	function returnToPreviousPage() {
 		setArtWorkSelected({});
